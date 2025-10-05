@@ -37,11 +37,17 @@ const Navbar = () => {
             >
               About
             </button>
-            <button
+          <button
               onClick={() => scrollToSection("courses")}
               className="text-foreground hover:text-primary transition-colors"
             >
               Courses
+            </button>
+            <button
+              onClick={() => scrollToSection("gallery")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Gallery
             </button>
             <button
               onClick={() => scrollToSection("contact")}
@@ -87,6 +93,12 @@ const Navbar = () => {
               className="block w-full text-left px-3 py-2 text-foreground hover:bg-accent/10 rounded-md"
             >
               Courses
+            </button>
+            <button
+              onClick={() => scrollToSection("gallery")}
+              className="block w-full text-left px-3 py-2 text-foreground hover:bg-accent/10 rounded-md"
+            >
+              Gallery
             </button>
             <button
               onClick={() => scrollToSection("contact")}
