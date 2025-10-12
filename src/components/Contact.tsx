@@ -25,7 +25,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-sm text-muted-foreground">info@sridurgas.edu</p>
+                    <p className="text-sm text-muted-foreground break-all">sridurgasvocationaltraininginstitute@gmail.com</p>
                   </div>
                 </div>
               </CardContent>
@@ -39,7 +39,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
-                    <p className="text-sm text-muted-foreground">+91 98765 43210</p>
+                    <p className="text-sm text-muted-foreground">+91 92473 92736</p>
+                    <p className="text-sm text-muted-foreground">+91 94916 01636</p>
                   </div>
                 </div>
               </CardContent>
@@ -54,7 +55,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Location</h3>
                     <p className="text-sm text-muted-foreground">
-                      123 Training Centre Road, City, State - 560001
+                      Plot no: 108, Metro pillar no: 780, Sumitra Nagar, Kukatpally, Hyderabad 500072, Telangana
                     </p>
                   </div>
                 </div>
