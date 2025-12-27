@@ -9,7 +9,7 @@ import { Palette, Gem, Scissors, Sparkles } from "lucide-react";
 
 const Curriculum = () => {
   const courses = [
-        {
+    {
       id: "tailoring",
       title: "Tailoring",
       icon: Scissors,
@@ -177,7 +177,7 @@ const Curriculum = () => {
           ],
         },
       ],
-    }
+    },
   ];
 
   return (

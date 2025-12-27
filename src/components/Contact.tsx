@@ -7,27 +7,6 @@ import { Mail, Phone, MapPin, WatchIcon, Timer } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
-  const { toast } = useToast();
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    course: "",
-    message: "",
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast({
-      title: "Thank you for your interest!",
-      description: "We will contact you shortly regarding your enrollment.",
-    });
-    setFormData({ name: "", email: "", phone: "", course: "", message: "" });
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
 
   return (
     <section id="contact" className="py-16 sm:py-24 bg-muted/30">
@@ -95,8 +74,8 @@ const Contact = () => {
                 </div>
               </CardContent>
             </Card>
-          </div>
         </div>
+      </div>
       </div>
     </section>
   );
