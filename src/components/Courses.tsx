@@ -8,22 +8,6 @@ import fashionImage from "@/assets/fashion-course.jpg";
 const Courses = () => {
   const courses = [
     {
-      title: "Painting",
-      description:
-        "Master various painting techniques including oil, acrylic, and watercolor. Learn color theory, composition, and develop your unique artistic style.",
-      image: paintingImage,
-      duration: "6 Months",
-      level: "Beginner to Advanced",
-    },
-    {
-      title: "Jewellery Making",
-      description:
-        "Learn the art of creating beautiful jewelry pieces. From design to execution, master techniques in metalwork, stone setting, and finishing.",
-      image: jewelleryImage,
-      duration: "4 Months",
-      level: "All Levels",
-    },
-    {
       title: "Tailoring",
       description:
         "Develop professional tailoring skills including pattern making, cutting, stitching, and garment construction for various clothing types.",
@@ -39,6 +23,22 @@ const Courses = () => {
       duration: "8 Months",
       level: "Intermediate to Advanced",
     },
+    {
+      title: "Painting",
+      description:
+        "Master various painting techniques including oil, acrylic, and watercolor. Learn color theory, composition, and develop your unique artistic style.",
+      image: paintingImage,
+      duration: "6 Months",
+      level: "Beginner to Advanced",
+    },
+    {
+      title: "Jewellery Making",
+      description:
+        "Learn the art of creating beautiful jewelry pieces. From design to execution, master techniques in metalwork, stone setting, and finishing.",
+      image: jewelleryImage,
+      duration: "4 Months",
+      level: "All Levels",
+    }
   ];
 
   const scrollToContact = () => {
@@ -91,7 +91,7 @@ const Courses = () => {
                   </div>
                 </div>
                 <Button onClick={scrollToContact} className="w-full">
-                  Enroll Now
+                  Contact Us
                 </Button>
               </CardContent>
             </Card>

@@ -6,7 +6,7 @@ const About = () => {
     {
       icon: Award,
       title: "Expert Instructors",
-      description: "Learn from industry professionals with years of experience",
+      description: "Learn from industry professionals with over 20 years of experience",
     },
     {
       icon: Users,

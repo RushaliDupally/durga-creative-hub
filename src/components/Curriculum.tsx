@@ -9,86 +9,7 @@ import { Palette, Gem, Scissors, Sparkles } from "lucide-react";
 
 const Curriculum = () => {
   const courses = [
-    {
-      id: "painting",
-      title: "Painting",
-      icon: Palette,
-      duration: "6 Months",
-      modules: [
         {
-          title: "Month 1-2: Fundamentals",
-          topics: [
-            "Introduction to art materials and tools",
-            "Basic drawing techniques and sketching",
-            "Understanding color theory and color wheel",
-            "Composition and perspective basics",
-            "Still life drawing practice",
-          ],
-        },
-        {
-          title: "Month 3-4: Painting Techniques",
-          topics: [
-            "Watercolor painting techniques",
-            "Acrylic painting fundamentals",
-            "Oil painting introduction",
-            "Brush techniques and strokes",
-            "Texture creation and layering",
-            "Light and shadow application",
-          ],
-        },
-        {
-          title: "Month 5-6: Advanced & Specialization",
-          topics: [
-            "Portrait painting",
-            "Landscape and nature painting",
-            "Abstract art techniques",
-            "Mixed media exploration",
-            "Personal style development",
-            "Final project and portfolio creation",
-          ],
-        },
-      ],
-    },
-    {
-      id: "jewellery",
-      title: "Jewellery Making",
-      icon: Gem,
-      duration: "4 Months",
-      modules: [
-        {
-          title: "Month 1: Basics & Design",
-          topics: [
-            "Introduction to jewelry making tools",
-            "Understanding metals and materials",
-            "Gemstone identification",
-            "Basic design principles",
-            "Sketching jewelry designs",
-          ],
-        },
-        {
-          title: "Month 2: Techniques",
-          topics: [
-            "Wire wrapping techniques",
-            "Basic soldering skills",
-            "Beading and stringing",
-            "Chain making fundamentals",
-            "Stone setting basics",
-          ],
-        },
-        {
-          title: "Month 3-4: Advanced & Creation",
-          topics: [
-            "Ring making and sizing",
-            "Pendant and earring creation",
-            "Bracelet and necklace assembly",
-            "Surface finishing techniques",
-            "Quality control and polish",
-            "Final collection project",
-          ],
-        },
-      ],
-    },
-    {
       id: "tailoring",
       title: "Tailoring",
       icon: Scissors,
@@ -178,6 +99,85 @@ const Curriculum = () => {
         },
       ],
     },
+    {
+      id: "painting",
+      title: "Painting",
+      icon: Palette,
+      duration: "6 Months",
+      modules: [
+        {
+          title: "Month 1-2: Fundamentals",
+          topics: [
+            "Introduction to art materials and tools",
+            "Basic drawing techniques and sketching",
+            "Understanding color theory and color wheel",
+            "Composition and perspective basics",
+            "Still life drawing practice",
+          ],
+        },
+        {
+          title: "Month 3-4: Painting Techniques",
+          topics: [
+            "Watercolor painting techniques",
+            "Acrylic painting fundamentals",
+            "Oil painting introduction",
+            "Brush techniques and strokes",
+            "Texture creation and layering",
+            "Light and shadow application",
+          ],
+        },
+        {
+          title: "Month 5-6: Advanced & Specialization",
+          topics: [
+            "Portrait painting",
+            "Landscape and nature painting",
+            "Abstract art techniques",
+            "Mixed media exploration",
+            "Personal style development",
+            "Final project and portfolio creation",
+          ],
+        },
+      ],
+    },
+    {
+      id: "jewellery",
+      title: "Jewellery Making",
+      icon: Gem,
+      duration: "4 Months",
+      modules: [
+        {
+          title: "Month 1: Basics & Design",
+          topics: [
+            "Introduction to jewelry making tools",
+            "Understanding metals and materials",
+            "Gemstone identification",
+            "Basic design principles",
+            "Sketching jewelry designs",
+          ],
+        },
+        {
+          title: "Month 2: Techniques",
+          topics: [
+            "Wire wrapping techniques",
+            "Basic soldering skills",
+            "Beading and stringing",
+            "Chain making fundamentals",
+            "Stone setting basics",
+          ],
+        },
+        {
+          title: "Month 3-4: Advanced & Creation",
+          topics: [
+            "Ring making and sizing",
+            "Pendant and earring creation",
+            "Bracelet and necklace assembly",
+            "Surface finishing techniques",
+            "Quality control and polish",
+            "Final collection project",
+          ],
+        },
+      ],
+    }
   ];
 
   return (

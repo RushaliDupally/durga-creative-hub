@@ -1,22 +1,22 @@
 import { useState } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
-import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
-import gallery4 from "@/assets/gallery-4.jpg";
-import gallery5 from "@/assets/gallery-5.jpg";
-import gallery6 from "@/assets/gallery-6.jpg";
+import gallery1 from "@/assets/teaching.jpeg";
+import gallery2 from "@/assets/students.jpeg";
+import gallery3 from "@/assets/sareeDraping.jpeg";
+import gallery4 from "@/assets/office.jpeg";
+import gallery5 from "@/assets/tailoringMachines.jpeg";
+import gallery6 from "@/assets/momentos.jpeg";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const images = [
-    { src: gallery1, alt: "Painting Class - Students Creating Art" },
+    { src: gallery1, alt: "Fashion Designing - Theoritical class" },
     { src: gallery2, alt: "Fashion Design Workshop" },
-    { src: gallery3, alt: "Jewellery Making Session" },
-    { src: gallery4, alt: "Student Fashion Show" },
-    { src: gallery5, alt: "Tailoring Training" },
-    { src: gallery6, alt: "Student Artwork Exhibition" },
+    { src: gallery3, alt: "Saree Draping Workshop" },
+    { src: gallery4, alt: "Office room" },
+    { src: gallery5, alt: "Tailoring Room" },
+    { src: gallery6, alt: "Achievements" },
   ];
 
   return (
